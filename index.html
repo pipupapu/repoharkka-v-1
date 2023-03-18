@@ -16,13 +16,21 @@
         <br/>
         <div>
             <label for="age">Age</label>
+            <input type="text" name="age" id="age"/>
         </div>
         <div>
             <input type="checkbox"name="Oletko aivan varma?"/>Oletko aivan varma?
         </div>
-            <button type="button" onclick="tulostatiedot(name,age)">
-            Nimi ja ikä   
+        <div>
+            <button type="button" onclick="tulostanimi(name)">
+                Nimi   
             </button>
+        </div>
+        <div>
+            <button type="button" onclick="tulostaikä(age)">
+                Ikä   
+            </button>
+        </div>   
         <br/>
         <button>Confirm</button>
     </form> 
