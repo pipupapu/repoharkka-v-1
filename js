@@ -1,8 +1,8 @@
 function tulostanimi(){
-    let div = document.getElementById("name");
-    div.innerHTML = "Nimi on" + name + " ";
+    let div = document.getElementById("nimi");
+    div.innerHTML = "Nimi on" + nimi + " ";
 }
 function tulostaikä(){
-    let div = document.getElementById("age");
-    div.innerHTML = "Ikä on" + age + " ";
+    let div = document.getElementById("ikä");
+    div.innerHTML = "Ikä on" + ikä + " ";
 }
